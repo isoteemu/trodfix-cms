@@ -1,0 +1,22 @@
+## Drupalista varastettu
+
+<Files ~ "(\.(inc.php)|\.svn|Entries|Repositories|Root|scripts|updates)$">
+  order deny,allow
+  deny from all
+</Files>
+
+#Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  # Modify the RewriteBase if you are using in a subdirectory and the
+  # rewrite rules are not working properly:
+  RewriteBase /~teemu/cms
+
+  # Rewrite URLs of the form 'index.php?q=x':
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php?path=$1 [L,QSA]
+</IfModule>

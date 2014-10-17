@@ -1,0 +1,8 @@
+Jos sivustollaan kohtaa ongelmia, eik‰ ole varma mist‰ se johtuu, voidaan k‰ytt‰‰ trace konsolia avuksi. Trace konsolissa raportoidaan sivuston luonnin edistymisest‰.
+Konsolin saa auki lis‰‰m‰ll‰ @DEBUG alkuosa osoitteeseen. Esimerkiksi, jos ongelmasivusto on osoitteessa: http://trodfix.jsp.fi/Etusivu, lis‰t‰‰n @DEBUG prefix n‰in: http://trodfix.jsp.fi/@DEBUG/Etusivu.
+Riippuen hieman web palveluntarjoajan palvelun ominaisuuksia, muoto voi hieman vaihdella:
+* http://trodfix.jsp.fi/@DEBUG/Etusivu
+* http://trodfix.jsp.fi/index.php/@DEBUG/Etusivu
+* http://trodfix.jsp.fi/index.php?path=/@DEBUG/Etusivu
+
+Jos vika ei ota selvit‰kseen, ja on syyt‰ ep‰ill‰ ett‰ vika on sivustoj‰rjestelm‰ss‰, voi k‰yd‰ j‰tt‰m‰ss‰ vikaraportin osoitteeseen: https://bugs.rautakuu.org/bug_report_page.php?project_id=6

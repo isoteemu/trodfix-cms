@@ -1,0 +1,13 @@
+Halutessa tehd‰ galleria, kuvat sijoitetaan vain haluttuun sivu kansioon. Tuetut kuvamuodot ovat:
+* Jpeg (.jpg p‰‰te, jpeg ei kelpaa)
+* PNG (.png)
+* Gif (.gif)
+
+Jos kuville halutaan antaa kuvateksti, voidaan se tehd‰ upottamalla teksti kuvan EXIF tietoon (vain jpg).
+Toinen vaihtoehto on tehd‰ @EXIF niminen kansio, johon sitten sijoitellaan kuvan nim‰ vastaava tekstitiedosto. Esimerkiksi, jos kuvan nimi on {{A_Gift_of_Moonlight.jpg}}, tehd‰‰n tiedosto {{@EXIF/A_Gift_of_Moonlight.txt}} johon liitet‰‰n haluttu teksti. Teksi **ei** voi sis‰lt‰‰ muotoilua.
+
+Gallerian tiedostoissa toimivat samat lainalaisuudet kuin tekstiartikkeleissa, eli esimerkiksi j‰rjestyst‰ voi vaihtaa @ORDERS tiedoston avulla
+
+++ // Asioita joita voi menn‰ pieleen: //
+*aina kun kuva havaitaan, kuvasta t‰ytyy tehd‰ pienoiskuva. Pienoiskuvat tehd‰‰n @THUMBS nimiseen kansiion. Koska yleisesti, (teoriaa, ei tarvitse t‰ysin ymm‰rt‰‰) www palvelinta ajetaan eri tunnuksella, mill‰ sivut on siirretty, on palvelimen mahdotonta luoda ko. kansiota. T‰llˆin, sivuston yll‰pit‰j‰n on luotava itse @THUMBS niminen kansio, ja varmistettava, ett‰ www-palvelin p‰‰see kirjoittamaan ko. kansioon, muokkaamalla kansion oikeuksia.
+* Jos kuvia on paljon, palvelimelta saataa loppua PHPlle rajattu muistitila kesken. Yleens‰ t‰m‰n huomaa kun galleria sivulle tulee "ei voitu yhdistt‰‰" ja/tai "yhteys katkesi odottamattomasti". T‰llˆin myˆs palvelimen logeihin j‰‰ merkint‰, "Allowed memory size of 8388608 bytes exhausted (tried to allocate 141 bytes)"

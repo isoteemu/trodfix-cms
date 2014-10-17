@@ -1,0 +1,128 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project usePreviewPrefix="1" type="Local" previewPrefix="http://localhost/~teemu/cms" usePersistentBookmarks="1" name="Trodfix::cms" encoding="iso 8859-15" enableEvents="true" >
+    <upload/>
+    <defaultDTD>-//w3c//dtd xhtml 1.0 transitional//en</defaultDTD>
+    <item url="inc/" uploadstatus="0" />
+    <item url="inc/auth.class.inc.php" bookmarks="" uploadstatus="0" />
+    <item url="inc/log.class.inc.php" bookmarks="" uploadstatus="0" />
+    <item url="inc/misc.class.inc.php" bookmarks="" uploadstatus="0" />
+    <item url="templates/" uploadstatus="1" />
+    <item url="index.php" bookmarks="" uploadstatus="0" />
+    <templates>templates/</templates>
+    <toolbars>./</toolbars>
+    <item url="" uploadstatus="0" />
+    <debuggers>
+      <Gubed/>
+    </debuggers>
+    <item url="inc/uri.class.inc.php" bookmarks="" uploadstatus="0" />
+    <item url=".htaccess" uploadstatus="0" />
+    <item url="templates/cache/" uploadstatus="1" />
+    <item url="templates/compile/" uploadstatus="1" />
+    <item url="templates/debug.tpl" bookmarks="" uploadstatus="1" />
+    <item url="images/" uploadstatus="0" />
+    <item url="images/harmaa50.gif" uploadstatus="0" />
+    <item url="images/highlight.png" uploadstatus="0" />
+    <item url="images/nuolipun.gif" uploadstatus="0" />
+    <item url="images/nuolipun.psd" uploadstatus="0" />
+    <item url="images/nuolipunvas.gif" uploadstatus="0" />
+    <item url="images/spacer.gif" uploadstatus="0" />
+    <item url="images/steelbg-blue-hi.png" uploadstatus="0" />
+    <item url="images/steelbg-blue.png" uploadstatus="0" />
+    <item url="images/steelbg.png" uploadstatus="0" />
+    <item url="images/plus.png" uploadstatus="0" />
+    <item url="images/mail.png" uploadstatus="0" />
+    <item url="images/print.png" uploadstatus="0" />
+    <item url="images/minus.png" uploadstatus="0" />
+    <item url="css.php" uploadstatus="0" />
+    <item url="inc/search.class.inc.php" uploadstatus="0" />
+    <item url="images/external.png" uploadstatus="0" />
+    <item url="images/steelbg-lightblue.png" uploadstatus="0" />
+    <item url="inc/config.dist.ini.php" bookmarks="" uploadstatus="0" />
+    <item url="inc/smarty.class.inc.php" bookmarks="" uploadstatus="0" />
+    <item url="inc/css.class.inc.php" bookmarks="" uploadstatus="0" />
+    <item url="inc/mime/" uploadstatus="1" />
+    <item url="inc/mime_handle.class.inc.php" bookmarks="" uploadstatus="1" />
+    <item url="inc/mime/mime_handle_swf.class.inc.php" uploadstatus="1" />
+    <item url="inc/mime/mime_handle_php.class.inc.php" uploadstatus="1" />
+    <item url="images/pngbehavior.htc" uploadstatus="1" />
+    <item url="images/ff-normal.jpg" uploadstatus="1" />
+    <item url="images/ff.jpg" uploadstatus="1" />
+    <item url="images/noIE-normal.jpg" uploadstatus="1" />
+    <item url="images/noIE.jpg" uploadstatus="1" />
+    <item url="templates/allach/" uploadstatus="1" />
+    <item url="templates/allach/artikkeli.tpl" bookmarks="" uploadstatus="1" />
+    <item url="templates/allach/css.tpl" bookmarks="" uploadstatus="1" />
+    <item url="templates/allach/haku.tpl" bookmarks="" uploadstatus="1" />
+    <item url="templates/allach/imagebox.tpl" bookmarks="" uploadstatus="1" />
+    <item url="templates/allach/page.tpl" bookmarks="" uploadstatus="1" />
+    <item url="templates/allach/toc.tpl" bookmarks="" uploadstatus="1" />
+    <item url="templates/email.tpl" bookmarks="" uploadstatus="1" />
+    <item url="inc/mime/mime_handle_html.class.inc.php" bookmarks="" uploadstatus="1" />
+    <item url="inc/mime/mime_handle_ooo.class.inc.php" bookmarks="" uploadstatus="1" />
+    <item url="inc/mime/mime_handle_sxw.class.inc.php" uploadstatus="1" />
+    <item url="inc/mime/mime_handle_txt.class.inc.php" bookmarks="" uploadstatus="1" />
+    <item url="inc/config.class.inc.php" bookmarks="" uploadstatus="1" />
+    <item url="inc/mime/ooo/" uploadstatus="1" />
+    <item url="inc/mime/ooo/common.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/global_document.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/main_html.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/palm.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/style_header.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/style_inlined.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/style_mapping.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/table_cells.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/table_columns.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/table_rows.xsl" uploadstatus="1" />
+    <item url="inc/mime/ooo/table.xsl" uploadstatus="1" />
+    <item url="inc/bootstrap.inc.php" bookmarks="" uploadstatus="1" />
+    <item url="inc/functions.inc.php" bookmarks="" uploadstatus="1" />
+    <item url="templates/allach/haku-tulos.tpl" bookmarks="" uploadstatus="1" />
+    <item url="templates/admin.tpl" uploadstatus="1" />
+    <item url="templates/printview.tpl" uploadstatus="1" />
+    <item url="inc/mime/mime_handle_image.class.inc.php" bookmarks="" uploadstatus="1" />
+    <uploadprofiles showtreeviews="true" defaultProfile="@" >
+      <profile remote_host="" remote_port="" remote_path="" remote_protocol="ftp" user="" name="@" />
+    </uploadprofiles>
+    <author>Teemu A</author>
+    <email>teemu@trodfix.jsp.fi</email>
+    <debuggerclient>No Debugger</debuggerclient>
+    <exclude cvsignore="true" />
+    <teamdata>
+      <taskleaders/>
+      <subprojectleaders/>
+      <leader>
+        <name>Jarmo Levy</name>
+        <email>jarmo.levy@trodfix.jsp.fi</email>
+      </leader>
+      <member task="Das Coder" >
+        <name>Teemu Autto</name>
+        <email>teemu@terrasolid.fi</email>
+      </member>
+      <mailinglist address="" />
+    </teamdata>
+    <events/>
+    <item url="inc/mime/mime_handle_png.class.inc.php" bookmarks="" uploadstatus="1" />
+    <item url="templates/allach/thumbnails.tpl" bookmarks="" uploadstatus="1" />
+    <item url="inc/mime/mime_handle_jpg.class.inc.php" bookmarks="" uploadstatus="1" />
+    <item url="inc/mime/mime_handle_gif.class.inc.php" bookmarks="" uploadstatus="1" />
+    <annotations/>
+    <item url="images/add-to-desktop.png" uploadstatus="1" />
+    <item url="images/demo.png" uploadstatus="1" />
+    <item url="images/download.png" uploadstatus="1" />
+    <item url="images/image.png" uploadstatus="1" />
+    <item url="images/leftarrow.png" uploadstatus="1" />
+    <item url="images/rightarrow.png" uploadstatus="1" />
+    <item url="images/window_fullscreen.png" uploadstatus="1" />
+    <item url="images/window_nofullscreen.png" uploadstatus="1" />
+    <item url="images/wz_tooltip.js" uploadstatus="1" />
+    <treestatus>
+      <openfolder url="templates" />
+      <openfolder url="templates/allach" />
+      <openfolder url="inc" />
+      <openfolder url="inc/mime" />
+      <openfolder url="images" />
+    </treestatus>
+    <item url="inc/modules/" />
+  </project>
+</webproject>

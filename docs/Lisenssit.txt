@@ -1,0 +1,6 @@
+* Alkemisti itsess‰‰n on lisenssoitu [http://www.gnu.org/licenses/gpl.html GNU GPL lisenssin] alaisena.
+* [http://pear.php.net/package/Text_Wiki Text_Wiki] kirjasto on lisenssoitu [http://www.gnu.org/licenses/lgpl.html LGPL lisenssill‰].
+* [http://pear.php.net/package/Archive_Zip Archive_Zip] kirjasto on lisenssoitu [http://www.php.net/license/2_02.txt PHP lisenssill‰].
+* OpenOfficen tyylipohjat ovat lisenssoitu joko [http://www.gnu.org/licenses/lgpl.html LGPL] tai [http://www.openoffice.org/licenses/sissl_license.html SISSL].
+* [http://smarty.php.net Smarty] templatemoottori on lisenssoitu [http://www.gnu.org/licenses/lgpl.html LGPL lisenssill‰].
+* Osa kuvakkeista on otettu [http://www.kde.org KDE]n // Crystal // ja // Crystal Clear // kuvaketeemoista, jotka ovat lisenssoit [http://www.gnu.org/licenses/gpl.html GNU GPL lisenssin] alaisena.
