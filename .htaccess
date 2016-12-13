@@ -13,7 +13,7 @@ DirectoryIndex index.php
 
   # Modify the RewriteBase if you are using in a subdirectory and the
   # rewrite rules are not working properly:
-  RewriteBase /~teemu/cms
+  RewriteBase /
 
   # Rewrite URLs of the form 'index.php?q=x':
   RewriteCond %{REQUEST_FILENAME} !-f
